@@ -15,74 +15,89 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WcG-bk-RZd">
-                                <rect key="frame" x="0.0" y="34" width="414" height="862"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ALG-ND-e6b">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ApD-cY-fOk">
-                                        <rect key="frame" x="8" y="52" width="414" height="1500"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aYi-FV-5px">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2500"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Conserv" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yaP-GN-2ou">
-                                                <rect key="frame" x="112" y="-21" width="148" height="79"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Conserv" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Qi-dp-pDT">
+                                                <rect key="frame" x="114" y="27" width="123" height="40"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="34"/>
                                                 <color key="textColor" red="0.075336528210000003" green="0.12777601520000001" blue="0.037268546270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tGC-yZ-bt6">
-                                                <rect key="frame" x="228" y="-26" width="74" height="88"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C80-jr-xiN">
+                                                <rect key="frame" x="233" y="27" width="39" height="40"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="34"/>
                                                 <color key="textColor" red="0.22887386909999999" green="0.38818607230000002" blue="0.11322258390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="our app mission statement" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7iS-B9-EcG">
-                                                <rect key="frame" x="81" y="439" width="253" height="35"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="27"/>
-                                                <color key="textColor" red="0.22887386909999999" green="0.38818607230000002" blue="0.11322258390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NZl-OO-cd2">
-                                                <rect key="frame" x="37" y="500" width="350" height="363"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">With the rise of carbon emissions, climate change and air pollution have been put at an all time high. Though it may seem inevitable to change, there’s still so much that you can do to help. That's where our app comes into play. Lack of advertising and information has led to an absence in action and knowledge. More people need to be informed on what they can do to help the planet. We aim to be the app that can help people better comprehend how and what they need to do in order to help keep our environment healthy. </mutableString>
-                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="19"/>
-                                                <color key="textColor" red="0.075336528210000003" green="0.12777601520000001" blue="0.037268546270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="about the creators" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uHM-LE-NDZ">
-                                                <rect key="frame" x="120" y="899" width="174" height="35"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="27"/>
-                                                <color key="textColor" red="0.22887386909999999" green="0.38818607230000002" blue="0.11322258390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-08-03 at 17.51.25" translatesAutoresizingMaskIntoConstraints="NO" id="QaK-T3-zh5">
-                                                <rect key="frame" x="46" y="45" width="323" height="386"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-08-03 at 17.51.25" translatesAutoresizingMaskIntoConstraints="NO" id="ORE-mn-RVX">
+                                                <rect key="frame" x="47" y="88" width="322" height="312"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Our app mission statement" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mj7-dI-v4m">
+                                                <rect key="frame" x="77" y="420" width="262" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="27"/>
+                                                <color key="textColor" red="0.22887386909999999" green="0.38818607230000002" blue="0.11322258390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EWS-es-3Wa">
+                                                <rect key="frame" x="31" y="477" width="361" height="267"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">With the rise of carbon emissions, climate change and air pollution have been put at an all time high. Though it may seem inevitable that our planet cannot be saved, there’s still so much you can do to help. That’s where our app comes into play. Lack of advertising and information has led to an absence in action and knowledge. More people need to be informed on what they can do to help the planet. We aim to be the app that can help people better comprehend how and what they need to do to help keep our environment healthy.</mutableString>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                                <color key="textColor" red="0.075336528210000003" green="0.12777601520000001" blue="0.037268546270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About the Creators" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QlF-kb-qsx">
+                                                <rect key="frame" x="113" y="769" width="197" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="27"/>
+                                                <color key="textColor" red="0.22887386909999999" green="0.38818607230000002" blue="0.11322258390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gkq-2s-iwj">
+                                                <rect key="frame" x="31" y="833" width="361" height="288"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">Diya Mahaveer is a seventeen year old girl from Nashua, New Hampshire. She is a rising senior at Nashua High School South and has always held a deep interest into topics surrounding climate change and sustainability akin to her fellow peers with whom she created this app, with the intent of educating people around the world about the importance of conserving and saving our environment. Although she has not had any prior projects to do with the same, Diya practices living an eco–friendly lifestyle in her day–to–day life by recycling and implementing the use of Solar Panels. </mutableString>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                                <color key="textColor" red="0.075336528210000003" green="0.12777601520000001" blue="0.037268546270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iO4-xw-nZB">
+                                                <rect key="frame" x="31" y="1140" width="361" height="382"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">Paige Dinh is a thirteen year old girl from Orange County, California. She is a rising eighth grader at Fulton Middle School and has always held a deep interest into topics surround climate change and sustainability, just like her fellow peers. Climate change and environmental sustainability have always been a relevant part of her life. Forest fires, air pollution and increasingly rising temperatures have all taken place in her state. She has seen people personally affected by these issues which has compelled her to become more aware of the negative impacts that are taking place in our world and affecting us all. Similarly to Diya, she has not done any previous projects prior related to this issue, however, she has made sustainable swaps and does recycle often within her day–to–day life.</mutableString>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                                <color key="textColor" red="0.075336528210000003" green="0.12777601520000001" blue="0.037268546270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" red="0.59999999999999998" green="0.85098039219999999" blue="0.54901960780000003" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="1500" id="A1c-dE-G1f"/>
-                                            <constraint firstAttribute="height" constant="1500" id="SM8-3Y-alt"/>
+                                            <constraint firstAttribute="height" constant="2500" id="CLe-YO-Xpd"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="bottomMargin" secondItem="ApD-cY-fOk" secondAttribute="bottom" id="GDE-xk-tfn"/>
-                                    <constraint firstAttribute="trailingMargin" secondItem="ApD-cY-fOk" secondAttribute="trailing" id="M45-wJ-RrR"/>
-                                    <constraint firstItem="ApD-cY-fOk" firstAttribute="leading" secondItem="WcG-bk-RZd" secondAttribute="leadingMargin" id="Pfv-UE-R7G"/>
-                                    <constraint firstItem="ApD-cY-fOk" firstAttribute="top" secondItem="WcG-bk-RZd" secondAttribute="topMargin" id="fSd-FP-RNn"/>
+                                    <constraint firstAttribute="height" constant="2500" id="Idz-qa-66z"/>
+                                    <constraint firstItem="aYi-FV-5px" firstAttribute="top" secondItem="ALG-ND-e6b" secondAttribute="top" id="PhE-sM-SG4"/>
+                                    <constraint firstAttribute="bottom" secondItem="aYi-FV-5px" secondAttribute="bottom" id="SLe-rN-5fB"/>
+                                    <constraint firstAttribute="trailing" secondItem="aYi-FV-5px" secondAttribute="trailing" id="V2R-Ci-uAV"/>
+                                    <constraint firstItem="aYi-FV-5px" firstAttribute="leading" secondItem="ALG-ND-e6b" secondAttribute="leading" id="euw-wm-Ncs"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.59999999999999998" green="0.85098039219999999" blue="0.54901960780000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="ApD-cY-fOk" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="4F8-VP-jFn"/>
-                            <constraint firstItem="ApD-cY-fOk" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="1.67411" id="4QO-1h-oBA"/>
-                            <constraint firstItem="WcG-bk-RZd" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="znl-rk-OrL"/>
+                            <constraint firstItem="aYi-FV-5px" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="2.79018" id="0WH-HK-Szj"/>
+                            <constraint firstItem="aYi-FV-5px" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="3Ev-Xm-dZ3"/>
                         </constraints>
                     </view>
                     <size key="freeformSize" width="414" height="896"/>
