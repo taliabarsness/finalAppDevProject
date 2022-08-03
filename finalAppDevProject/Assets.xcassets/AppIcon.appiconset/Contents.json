@@ -1,6 +1,7 @@
 {
   "images" : [
     {
+      "filename" : "Image from iOS.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "20x20"
