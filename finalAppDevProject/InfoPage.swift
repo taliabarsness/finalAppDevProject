@@ -11,7 +11,7 @@ class InfoPage: UIViewController {
 
 
     @IBAction func Link1(_ sender: Any) {
-        if let url = URL(string: "https://www.apple.com") {
+        if let url = URL(string: "https://corporate.exxonmobil.com") {
               UIApplication.shared.open(url, options: [:], completionHandler: nil)
         }
     }
