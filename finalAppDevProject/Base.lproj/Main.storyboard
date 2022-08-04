@@ -213,9 +213,6 @@
                         <color key="backgroundColor" red="0.46274509803921571" green="0.78431372549019607" blue="0.57647058823529407" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="qwU-jA-NHY"/>
-                    <connections>
-                        <outlet property="Link1" destination="EKF-pp-Pec" id="Ywg-vn-jkY"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xFz-aH-Sxk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
