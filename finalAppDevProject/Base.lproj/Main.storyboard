@@ -208,12 +208,6 @@
                                     <action selector="Link1:" destination="h6B-h7-Mem" eventType="touchUpInside" id="0LN-65-tko"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="huq-Gi-9Ds">
-                                <rect key="frame" x="192" y="251" width="59" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Link2"/>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="BS9-UN-Yvh"/>
                         <color key="backgroundColor" red="0.46274509803921571" green="0.78431372549019607" blue="0.57647058823529407" alpha="1" colorSpace="calibratedRGB"/>
