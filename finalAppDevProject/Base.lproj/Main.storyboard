@@ -281,13 +281,30 @@
             </objects>
             <point key="canvasLocation" x="1134.7826086956522" y="53.571428571428569"/>
         </scene>
-        <!--View Controller-->
+        <!--Info Page-->
         <scene sceneID="wII-Tu-gfd">
             <objects>
-                <viewController id="h6B-h7-Mem" sceneMemberID="viewController">
+                <viewController id="h6B-h7-Mem" customClass="InfoPage" customModule="finalAppDevProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hPN-ml-4Vd">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EKF-pp-Pec">
+                                <rect key="frame" x="180" y="180" width="55" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Here"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pZB-P7-z9A">
+                                <rect key="frame" x="180" y="180" width="55" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Here"/>
+                                <connections>
+                                    <action selector="Link1:" destination="h6B-h7-Mem" eventType="touchUpInside" id="ZnD-DO-UMc"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="BS9-UN-Yvh"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -295,12 +312,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xFz-aH-Sxk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2159" y="61"/>
+            <point key="canvasLocation" x="2142" y="64"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Myk-TF-Iyi"/>
-        <segue reference="GbD-Er-S8f"/>
+        <segue reference="ODC-an-QPY"/>
+        <segue reference="ikm-VE-db7"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Screen Shot 2022-08-03 at 17.51.25" width="300" height="300"/>
