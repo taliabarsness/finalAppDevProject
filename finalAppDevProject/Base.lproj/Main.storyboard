@@ -27,6 +27,15 @@
                                 <rect key="frame" x="20" y="166" width="374" height="317"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j4T-yS-Idr">
+                                <rect key="frame" x="174" y="563" width="161" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="climate change issues around the world"/>
+                                <connections>
+                                    <segue destination="xZD-XP-avN" kind="show" id="Myk-TF-Iyi"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vAr-51-5Kz"/>
                         <color key="backgroundColor" red="0.58398045939999998" green="0.83771500509999997" blue="0.53876121619999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -203,10 +212,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2uV-K1-nRC">
-                                <rect key="frame" x="136" y="175" width="67" height="243"/>
+                                <rect key="frame" x="59" y="175" width="144" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="carbon footprint tracker"/>
+                                <connections>
+                                    <segue destination="0wC-X4-syH" kind="show" id="GbD-Er-S8f"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="axV-5p-UV7"/>
@@ -286,6 +298,10 @@
             <point key="canvasLocation" x="2159" y="61"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="Myk-TF-Iyi"/>
+        <segue reference="GbD-Er-S8f"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="Screen Shot 2022-08-03 at 17.51.25" width="300" height="300"/>
         <systemColor name="systemBackgroundColor">
