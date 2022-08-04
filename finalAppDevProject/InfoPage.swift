@@ -10,6 +10,9 @@ import UIKit
 class InfoPage: UIViewController {
 
     @IBAction func Link1(_ sender: Any) {
+        if let url = URL(string: "https://www.apple.com") {
+              UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
     }
     override func viewDidLoad() {
         super.viewDidLoad()
