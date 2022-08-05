@@ -16,6 +16,9 @@ class InfoPage: UIViewController {
         }
     }
     
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
