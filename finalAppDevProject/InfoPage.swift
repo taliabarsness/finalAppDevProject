@@ -17,6 +17,73 @@ class InfoPage: UIViewController {
     }
     
     
+    @IBAction func Link2(_ sender: Any) {
+        if let url = URL(string: "https://corporate.exxonmobil.com") {
+              UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
+    }
+    
+    @IBAction func Link3(_ sender: Any) {
+        if let url = URL(string: "https://corporate.exxonmobil.com") {
+              UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
+    }
+    
+    @IBAction func Link4(_ sender: Any) {
+        if let url = URL(string: "https://corporate.exxonmobil.com") {
+              UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
+    }
+    
+    
+    @IBAction func Link5(_ sender: Any) {
+        if let url = URL(string: "https://corporate.exxonmobil.com") {
+              UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
+    }
+    
+    
+    @IBAction func Link6(_ sender: Any) {
+        if let url = URL(string: "https://corporate.exxonmobil.com") {
+              UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
+    }
+    
+    
+    @IBAction func Link7(_ sender: Any) {
+        if let url = URL(string: "https://corporate.exxonmobil.com") {
+              UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
+    }
+    
+    
+    @IBAction func Link8(_ sender: Any) {
+        if let url = URL(string: "https://corporate.exxonmobil.com") {
+              UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
+    }
+    
+    
+    @IBAction func Link9(_ sender: Any) {
+        if let url = URL(string: "https://corporate.exxonmobil.com") {
+              UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
+    }
+    
+    
+    @IBAction func Link10(_ sender: Any) {
+        if let url = URL(string: "https://corporate.exxonmobil.com") {
+              UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
+    }
+    
+    
+    @IBAction func LInk11(_ sender: Any) {
+        if let url = URL(string: "https://corporate.exxonmobil.com") {
+              UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
+    }
+    
     
     
     override func viewDidLoad() {
