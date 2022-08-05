@@ -16,6 +16,7 @@ class InfoPage: UIViewController {
         }
     }
     
+
     
     @IBAction func Link2(_ sender: Any) {
         if let url = URL(string: "https://europa.eu/youth/get-involved/sustainable-development/how-reduce-my-carbon-footprint_en") {
@@ -28,6 +29,7 @@ class InfoPage: UIViewController {
               UIApplication.shared.open(url, options: [:], completionHandler: nil)
         }
     }
+
     
     @IBAction func Link4(_ sender: Any) {
         if let url = URL(string: "https://cotap.org/reduce-carbon-emissions/") {
@@ -35,14 +37,14 @@ class InfoPage: UIViewController {
         }
     }
     
-    
+  
     @IBAction func Link5(_ sender: Any) {
         if let url = URL(string: "https://www.nytimes.com/guides/year-of-living-better/how-to-reduce-your-carbon-footprint") {
               UIApplication.shared.open(url, options: [:], completionHandler: nil)
         }
     }
     
-    
+   
     @IBAction func Link6(_ sender: Any) {
         if let url = URL(string: "https://www.wired.co.uk/article/reduce-carbon-footprint") {
               UIApplication.shared.open(url, options: [:], completionHandler: nil)
